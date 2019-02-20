@@ -12,7 +12,7 @@ import (
 	"github.com/rakyll/statik/fs"
 	"golang.org/x/tools/go/packages"
 
-	_ "./statik"
+	_ "github.com/kawakami-o3/go-genopc/statik"
 )
 
 type opcode struct {
